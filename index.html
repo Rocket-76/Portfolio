@@ -1,815 +1,93 @@
 <!DOCTYPE html>
-<!-- saved from url=(0032)https://rocket-76.github.io/Portfolio// -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<!-- saved from url=(0014)about:internet -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dennis Ivy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./Dennis Ivy_files/main.css">
+    </head>
+    <body>
+        <div id="container--main">
 
-  <title>Parthiv Konwer -Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+            <section id="wrapper--hero" class="section--page">
+                <img src="data:image/png;base64,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" alt=""><br>
 
-  <!-- Favicons -->
-  <link href="https://rocket-76.github.io/Portfolio//assets/img/favicon.png" rel="icon">
-  <link href="https://rocket-76.github.io/Portfolio//assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+                <div>
+                    <h1 id="user-name">Parthiv Konwer</h1>
+                    <p id="bio"><i style="color: rgb(255, 255, 255); font-family: Raleway, serif; font-size: 19.2px; background-color: rgb(255, 255, 255);"><span class="purple" style="font-weight: bolder;">About Myself&nbsp;&nbsp;</span></i><span style="color: rgb(173, 176, 177); font-size: 16px; background-color: var(--mainBgColor);">&nbsp;:=&gt;</span></p><p id="bio">In the vibrant realm of CS, I find myself navigating in the final year of my BTech degree in Artificial Intelligence and Machine Learning at VIT Bhopal, India. As an impassioned machine learning enthusiast, my interest span across the intricate domains of Artificial Intelligence, Machine Learning, Deep Learning and Data Analysis; I am a relentless problems solver driven by an insatiable curiosity of research.</p>
+                    <p id="email">👉 Contact me : parthiv.konwer2020@vitbhopal.ac.in</p></div></section><section class="section--page"><div id="socials--list">
+                    <a href="https://www.linkedin.com/in/parthiv-konwer/" target="_blank">Linkedin</a>
+                    <a href="https://github.com/Rocket-76" target="_blank">Github</a>
+                </div>
+            </section>
 
-  <!-- Vendor CSS Files -->
-  <link href="./Parthiv Konwer -Portfolio_files/bootstrap.min.css" rel="stylesheet">
-  <link href="./Parthiv Konwer -Portfolio_files/bootstrap-icons.css" rel="stylesheet">
-  <link href="./Parthiv Konwer -Portfolio_files/glightbox.min.css" rel="stylesheet">
-  <link href="./Parthiv Konwer -Portfolio_files/swiper-bundle.min.css" rel="stylesheet">
+            <section class="section--page">
+                <h2>Skills &amp; Qualifications</h2>
+                <ul id="qualifications--list">
+                    <li>✔️ Languages: Java, Python, HTML, CSS, C++</li>
+                    <li>✔️ Technologies: React JS, Express JS, Node JS, MySQL, MongoDB, Tableau</li>
+                    <li>✔️ Proficient with various python libraries and modules</li>
+                </ul>
+            </section>
 
-  <!-- Template Main CSS File -->
-  <link href="./Parthiv Konwer -Portfolio_files/style.css" rel="stylesheet">
+            <section class="section--page">
+                <h2>Tech stack</h2>
 
-</head>
+                <div id="wrapper--techstack__items">
+                    <div class="card--techstack"><span>Python</span></div>
+                    <div class="card--techstack"><span style="color: rgb(173, 176, 177); font-size: 14.4px;">MERN Stack</span><br></div>
+                    <div class="card--techstack"><span style="color: rgb(173, 176, 177); font-size: 14.4px;">C++ / C</span><br></div>
+                    <div class="card--techstack"><span>Java</span></div>
+                </div>
+            </section>
 
-<body>
+            <section id="work-history-wrapper" class="section--page">
+                <h2>Project History</h2>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-scrolled">
-    <div class="container d-flex align-items-center justify-content-between">
+                <div class="line-break"></div>
+                <div class="card--work-history">
+                    <strong>🚧 DEEP LEARNING PROJECT (I)</strong><p><span data-scheme-color="@0E2841,3," data-usefontface="false" data-contrast="none" class="TextRun  BCX0 SCXP16948090" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun  BCX0 SCXP16948090" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;">Project Title</span></span><span data-scheme-color="@0E2841,3," data-usefontface="false" data-contrast="none" class="TextRun  BCX0 SCXP16948090" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun  BCX0 SCXP16948090" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;">&nbsp;:&nbsp;  &nbsp; &nbsp; Image classification</span></span></p><p><span style="color: rgb(173, 176, 177); font-size: 14px; text-align: justify; background-color: var(--mainBgColor);">Project Name:&nbsp;<span style="white-space:pre">	</span>&nbsp;A model to classify the leaves o f various plants as diseased or healthy</span></p><p><span style="color: rgb(173, 176, 177); font-size: 14px; text-align: justify; background-color: var(--mainBgColor);">Duration:<span style="white-space:pre">		</span>&nbsp;Dec 2021 - Feb 2022</span></p><p><span style="color: rgb(173, 176, 177); font-size: 14px; text-align: justify; background-color: var(--mainBgColor);">Language:&nbsp;&nbsp;<span style="white-space:pre">		</span>&nbsp;Python</span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="false" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;">About the Project</span></span><span data-scheme-color="@0E2841,3," data-usefontface="false" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;">:</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;"><span style="white-space:pre">	</span>During the period spanning from December 2021 to February 2022, I spearheaded a solo project that showcased my  proficiency in key&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">technologies, including Numpy</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">, OpenCV, Tensorflow</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">, and Keras</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">. The focal point of this endeavor was the development of a sophisticated&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">model designed to classify leaves from diverse plant specs</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">,&nbsp; discerning&nbsp;between diseased and healthy states.</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;"><span style="white-space:pre">	</span>Operating within the confines of a substantial database totaling 96 MB, I undertook the responsibilities of data curation, model development,&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">and evaluation. Leveraging the capabilities of Numpy</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">, I efficiently handled numerical operations, while OpenCV facilitated image processing&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">tasks crucial for extracting relevant features from the leaf images.&nbsp;</span></span><span style="color: rgb(173, 176, 177); font-size: 16px; text-align: justify; background-color: var(--mainBgColor);">Tensorflow</span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="font-size: 12pt; background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">&nbsp;and&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="font-size: 12pt; background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;"><span style="color: rgb(173, 176, 177); font-size: 16px;">Keras</span>&nbsp;formed the backbone of the machine learning aspect,&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="font-size: 12pt; background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">empowering the creation and training of a robust classification model.</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;"><span style="white-space:pre">	</span>This solo project not only showcased my technical prowess but also highlighted my ability to independently navigate and deliver outcomes&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">in a time-bound manner. The successful execution of this initiative further solidified my expertise in the intersection of computer vision,&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP16248122 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.187704px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 12pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: normal; line-height: 13px; vertical-align: -0.187704px;"><span class="NormalTextRun SCXP16248122 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.187704px; line-height: 0px; position: relative;">machine learning, and data manipulation, providing tangible evidence of my practical skills in the domain.</span></span><span style="color: rgb(14, 40, 65); font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; font-size: 10.5pt; background-color: transparent; text-align: justify;">​</span></p></div>
 
-      <h1 class="logo"><a href="https://rocket-76.github.io/Portfolio//">My PortFolio</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                <div class="card--work-history">
+                    <strong>🚧 DEEP LEARNING PROJECT (II)</strong><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Aptos_MSFontService, &quot;Segoe UI&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">Project Title</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Aptos_MSFontService, &quot;Segoe UI&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">&nbsp;:  Face Detection</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Aptos_MSFontService, &quot;Segoe UI&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">Duration&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Aptos_MSFontService, &quot;Segoe UI&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">:   &nbsp; June 2022 – Oct 2022</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Aptos_MSFontService, &quot;Segoe UI&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">Role</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Aptos_MSFontService, &quot;Segoe UI&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">&nbsp;:&nbsp;     &nbsp; Solo Project</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Aptos_MSFontService, &quot;Segoe UI&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">Language</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Aptos_MSFontService, &quot;Segoe UI&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">&nbsp; :&nbsp;  &nbsp; Python</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Aptos_MSFontService, &quot;Segoe UI&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">About the project :</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Aptos_MSFontService, &quot;Segoe UI&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;"><span style="white-space:pre">	</span>&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;">From June 2022 to October 2022, I undertook a solo project that underscored my adeptness in a diverse set of Python libraries and frameworks, including OpenCV,&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;"><span style="color: rgb(173, 176, 177); font-size: 14px;">Numpy</span>, Pandas,&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;"><span style="color: rgb(173, 176, 177); font-size: 14px;">Keras</span>, Convex Optimization, and Seaborn. At the heart of this initiative was the creation of a foundational codebase for face detection,&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;">demonstrating my proficiency in computer vision and machine learning.</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;"><span style="white-space:pre">	</span>Within the extensive 455 MB database, I meticulously engineered a comprehensive solution that extended beyond mere face detection. The project delved into&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;">nuanced sub-topics, including face emotion analysis, driver awareness detection, and edge detection through the application of the Canny edge detection method.</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;"><span style="white-space:pre">	</span>In the realm of machine learning, Convex Optimization and Convolutional Neural Networks (CNN) played pivotal roles, showcasing my expertise in leveraging&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;">advanced techniques to solve real-world problems. The integration of Pandas facilitated seamless data handling and manipulation, adding an extra layer of&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;">sophistication to the project.</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;"><span style="white-space:pre">	</span>This solo endeavor not only substantiated my technical capabilities but also highlighted my ability to independently conceptualize and execute multifaceted&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;">projects. The inclusion of Seaborn underscored my commitment to not only functional but aesthetically pleasing data visualization.</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;"><span style="white-space:pre">	</span>By undertaking a project of this magnitude, I demonstrated my prowess in handling large datasets, implementing cutting-edge algorithms, and addressing diverse&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;">aspects&nbsp;of computer vision. This project stands as a testament to my proficiency in blending various technologies to deliver a comprehensive and innovative&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP59818178 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.35722px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10.5pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.35722px;"><span class="NormalTextRun SCXP59818178 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.35722px; line-height: 0px; position: relative;">solution.</span></span></p><p><span class="EOP SCXP59818178 BCX0" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-size: 10.5pt; line-height: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; color: rgb(14, 40, 65);">​</span></p><p><span class="EOP SCXP59818178 BCX0" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-size: 10.5pt; line-height: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; color: rgb(14, 40, 65);"></span></p><p align="justify" style="line-height: 100%; orphans: 0; widows: 0; margin-left: 1.27cm; margin-right: -0.19cm; text-indent: -0.64cm; margin-bottom: 0cm"><br></p><ul>
+                    </ul>
+                </div>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto" href="https://rocket-76.github.io/Portfolio//#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="https://rocket-76.github.io/Portfolio//#about">About</a></li>
-          <li><a class="nav-link scrollto" href="https://rocket-76.github.io/Portfolio//#services">Education</a></li>
-          <li><a class="nav-link scrollto" href="https://rocket-76.github.io/Portfolio//#work">Experience</a></li>
-          <li><a class="nav-link scrollto active" href="https://rocket-76.github.io/Portfolio//#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+                <div class="line-break"></div>
 
-    </div>
-  </header><!-- End Header -->
+                <div class="card--work-history">
+                    <strong>🚧 Data Visualization</strong><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.728306px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10pt; font-family: &quot;Segoe UI&quot;, &quot;Segoe UI_EmbeddedFont&quot;, &quot;Segoe UI_MSFontService&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.728306px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.728306px; line-height: 0px; position: relative;">Project Title</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.728306px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: &quot;Segoe UI&quot;, &quot;Segoe UI_EmbeddedFont&quot;, &quot;Segoe UI_MSFontService&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.728306px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.728306px; line-height: 0px; position: relative;">&nbsp;:&nbsp;  Crime Data Analysis</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.728306px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10pt; font-family: &quot;Segoe UI&quot;, &quot;Segoe UI_EmbeddedFont&quot;, &quot;Segoe UI_MSFontService&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.728306px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.728306px; line-height: 0px; position: relative;">Duration</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.728306px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: &quot;Segoe UI&quot;, &quot;Segoe UI_EmbeddedFont&quot;, &quot;Segoe UI_MSFontService&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.728306px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.728306px; line-height: 0px; position: relative;">&nbsp;:  &nbsp; &nbsp; &nbsp;Dec 2022 – Jan 2023</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.728306px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10pt; font-family: &quot;Segoe UI&quot;, &quot;Segoe UI_EmbeddedFont&quot;, &quot;Segoe UI_MSFontService&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.728306px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.728306px; line-height: 0px; position: relative;">Role</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.728306px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: &quot;Segoe UI&quot;, &quot;Segoe UI_EmbeddedFont&quot;, &quot;Segoe UI_MSFontService&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.728306px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.728306px; line-height: 0px; position: relative;">&nbsp;:&nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp;Team Member</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.728306px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10pt; font-family: &quot;Segoe UI&quot;, &quot;Segoe UI_EmbeddedFont&quot;, &quot;Segoe UI_MSFontService&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.728306px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.728306px; line-height: 0px; position: relative;">Software</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.728306px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: &quot;Segoe UI&quot;, &quot;Segoe UI_EmbeddedFont&quot;, &quot;Segoe UI_MSFontService&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.728306px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.728306px; line-height: 0px; position: relative;">&nbsp;:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tableau&nbsp;</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.728306px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-weight: bold; font-size: 10pt; font-family: &quot;Segoe UI&quot;, &quot;Segoe UI_EmbeddedFont&quot;, &quot;Segoe UI_MSFontService&quot;, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.728306px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.728306px; line-height: 0px; position: relative;">About the project :</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;"><span style="white-space:pre">	</span>Between December 2022 and January 2023, I actively contributed as a key team member in a collaborative effort utilizing Tableau software. The primary objective was to craft&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">a compelling visualization offering an in-depth analysis of heinous crimes in India.</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;"><span style="white-space:pre">	</span>This multifaceted project involved working with a substantial database, totaling 68.8 MB, requiring meticulous data handling and visualization design. As a team member, my&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">role extended to data exploration, preprocessing, and the creation of impactful visualizations that effectively communicated patterns and insights related to criminal&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">activities.</span></span></p><p><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;"><span style="white-space:pre">	</span>In the realm of data visualization, this project underscored my proficiency in leveraging Tableau to distill complex datasets into comprehensible visual narratives. By actively&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">participating in a team setting, I not only showcased my technical skills but also demonstrated collaborative prowess and the ability to contribute meaningfully to a shared&nbsp;</span></span><span data-scheme-color="@0E2841,3," data-usefontface="true" data-contrast="none" class="TextRun SCXP49604827 BCX0" xml:lang="EN-US" lang="EN-US" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0.0641622px 0px 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; color: rgb(14, 40, 65); font-size: 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; letter-spacing: 0px; font-kerning: none; line-height: 11px; vertical-align: -0.0641622px;"><span class="NormalTextRun SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; vertical-align: 0.0641622px; line-height: 0px; position: relative;">objective. This experience stands as a testament to my capacity to translate raw data into actionable insights through the strategic use of visualization tools.</span></span><span class="LineBreakBlob BlobObject SCXP49604827 BCX0" style="background-color: transparent; text-align: justify; margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; font-size: 10pt; line-height: 11px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; color: rgb(14, 40, 65);"><span class="SCXP49604827 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; touch-action: pan-x pan-y; white-space: pre !important;">​</span></span></p><ul>
+                    </ul>
+                </div>
 
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/Frame.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">I am Parthiv Konwer</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Aspiring Machine Learning Engineer,Avid Problem Solver,Rigour For Research">Rigour For Research</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true">|</span></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+                <div class="line-break"><br></div><div class="line-break"><br></div><div class="line-break"><br></div><div class="line-break"><br></div><div class="line-break"><h2 style="color: rgb(255, 255, 255); background-color: rgb(19, 20, 21);">Work Experience</h2><div><br></div><div><br></div><div><br></div><div><br></div></div>
+
+                <div class="card--work-history">
+                    <strong>🚧 PWC Traineeship</strong><p>&nbsp;June 2023 - August 2023</p><p>Completed 15 comprehensive training sessions, accumulating over 35 hrs of in-depth learning on Salesforce CRM and Apex programming.</p><p>Demonstrated proficiency by earning 15+ badges and amassing 10,000+ points on Trailhead, specifically focusing on cloud CRM operations and Apex automation.</p><p style="text-align: start;"><span style="background-color: transparent; text-align: justify;">Applied theoretical knowledge to practical scenarios by creating lightning experiences and automation samples during immersive Salesforce learning experience.</span></p><p style="text-align: start;"><span style="background-color: transparent; text-align: justify;"><br></span></p><p style="text-align: start;"><span style="background-color: transparent; text-align: justify;"><br></span></p><p style="text-align: start;"><strong style="color: rgb(255, 255, 255); font-size: medium;">🚧 Ethnus MERN Stack</strong><span style="background-color: transparent; text-align: justify;"><br></span></p><p style="text-align: start;"><span style="color: rgb(173, 176, 177); font-size: 16px;">May 2023 - July 2023</span><br></p><p style="text-align: start;"><span style="color: rgb(173, 176, 177); font-size: 16px;">Conquered a rigorous 3-month comprehensive training regimen and triumphed over the final exam conducted by Ethnus in it's Full stack internship program.</span></p><p style="text-align: start;"><span style="color: rgb(173, 176, 177); font-size: 16px;">Designed and developed a visually stunning and ergonomic front-end for a fully functioning e-commerce website.</span></p><p style="text-align: start;"><span style="color: rgb(173, 176, 177); font-size: 16px;">Skillfully implemented a robust backend capable of seamlessly handling multiple user queries concurrently.</span></p><p style="text-align: start;"><span style="color: rgb(173, 176, 177); font-size: 16px;">Showcased proficiency in MERN Stack, demonstrating a mastery of MongoDB, Express.js, React and Node Js.&nbsp;</span></p><p style="text-align: start;">Engineered a platform with user-guided product navigation and empowered sellers to create personalized&nbsp;spaces for advertising their goods and services.<span style="color: rgb(0, 0, 0); font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; font-size: 14pt; background-color: transparent; text-align: justify;">​</span></p>
+                </div>
+            </section>
+
+            <section class="section--page">
+                <h2>Certifications</h2>
+
+                <div class="card--project">
+                    <a href="https://divanov11.github.io/Digital-Resume/project1.html"><span>🏆&nbsp;</span></a>Completed Fundamentals of ML from Leaps Analyttica</div>
+
+                <div class="card--project">
+                    <a href="https://divanov11.github.io/Digital-Resume/project1.html"><span>🏆 </span></a>ML Data Preprocessing from DataCamp&nbsp;</div>
+
+                <div class="card--project">
+                    <a href="https://divanov11.github.io/Digital-Resume/project1.html"><span>🏆 </span></a>Applied ML from Coursera</div>
+
+                <div class="card--project">
+                    <a href="https://divanov11.github.io/Digital-Resume/project1.html"><span>🏆 </span></a>Fundamentals of Data Analytics from Leaps Analyttica</div>
+
+            </section>
+
+       
         </div>
-      </div>
-    </div>
-  </div><!-- End Hero Section -->
 
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img"><img src="data:image/png;base64,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" alt=""><br></div>
-                    </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p><span class="title-s">Name: </span><span>Parthiv Konwer</span></p>
-                        <p><span class="title-s">Profile: </span><span>&nbsp;AiML Engineer</span></p>
-                        <p>
-                          <span class="title-s">Email</span>&nbsp;: parthiv.konwer2020@vitbhopal.ac.in</p>
-                        <p><span class="title-s">Phone: </span> <span>(+91) 8454919514</span></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skills</p>
-                    <span>HTML/CSS:</span>&nbsp;5<span class="pull-right">5%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>Machine Learning:</span> <span class="pull-right">75%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>Tableau:</span> <span class="pull-right">50%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>Python Language:</span> <span class="pull-right">80%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      Hailing from Mumbai, India, I'm an aspiring Machine Learning Engineer captivated by the fusion of Data Science, AI, and Deep Learning.
-                      This dynamic field melds statistical prowess, coding finesse, domain expertise, and critical reasoning to extract insights from data.
-                      My ardor for Data Science blossomed through immersive hands-on experiences, including personal projects 
-                      that illuminate real-world applications.
-                    </p>
-                    <p class="lead">
-                      I have worked on some domain-relative industrial projects and done research work under
-                      areas like sustainability, healthcare, and telecom.  
-                      I regularly explore domain-relative applications as data is emerging and updating.I am an ardent problem-solver with an unending rigour for research and
-                      knowledge. 
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services-mf pt-5 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Programming Knowledge
-              </h3>
-              <p class="subtitle-a">
-                Domain knowledge
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Programming Languages</h2>
-                <p class="s-description text-center">
-                  As an aspiring Machine Learning Engineer, I diligently delve into cutting-edge data science concepts. 
-                  Proficient in Python, Java, and C languages, I adeptly navigate the realms of sorting, 
-                  analyzing, and managing vast datasets.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Machine Learning</h2>
-                <p class="s-description text-center">
-                  I have immersed myself in incorporating Machine Learning techniques to derive valuable insights, predict outcomes, 
-                  automate processes, and solve complex problems by leveraging the power of data
-              </p></div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Data Analytics and Data Visualization</h2>
-                <p class="s-description text-center">
-                 I possess a thorough acquaintance with diverse data analytics and mining techniques, including normalization,
-                  regression, clustering, association and also quite apt with various data warehousing techniques.
-                  Additionally, I excel in effortlessly crafting visually compelling infographics that captivate the mind.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Data Analysis &amp; Visualization</h2>
-                <p class="s-description text-center">
-                  I understand on how to create charts and graphs and build dashboards, 
-                  and present works to stakeholders so that the data tells a compelling story of the business insights  
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Problem-Solving</h2>
-                <p class="s-description text-center">
-                  I boast the prowess to elucidate intricate technical notions with effortless simplicity, scrutinizing them with a discerning eye.
-                  Furthermore, I exhibit a penchant for crafting ingenious solutions through the manipulation of data.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Big Data Technologies</h2>
-                <p class="s-description text-center">
-                I understand big data frameworks like Hadoop, Spark, and possess knowledge of handling and processing large datasets.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Counter Section ======= -->
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container position-relative">
-        <div class="row">
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-check"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="0" class="counter purecounter">4</p>
-                <span class="counter-text">Internships Completed</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="0" class="counter purecounter">4</p>
-                <span class="counter-text">Number Of Roles Undertaken</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-people"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="0" class="counter purecounter">5</p>
-                <span class="counter-text">Total Clients</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box pt-4 pt-md-0">
-              <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-award"></i></span>
-              </div>
-              <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="13" data-purecounter-duration="0" class="counter purecounter">13</p>
-                <span class="counter-text">Total Projects Completed</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Counter Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="work" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Projects &amp; Work Experience
-              </h3>
-              <p class="subtitle-a">
-                List of the academic &amp; professional projects
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="./Parthiv Konwer -Portfolio_files/Sustainable.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                <center>
-                  <img src="./Parthiv Konwer -Portfolio_files/Sustainable.png" alt="" class="img-fluid">
-                </center>
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h1 class="w-title">Sustainable Energy management</h1>
-                    <div class="w-more">
-                      <span class="w-ctegory">Project Management</span> / <span class="w-date">5 Dec. 2023</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://rocket-76.github.io/Portfolio//portfolio-details2"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="./Parthiv Konwer -Portfolio_files/LPR.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                <center>
-                  <img src="./Parthiv Konwer -Portfolio_files/LPR.jpeg" alt="" class="img-fluid">
-                </center>
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">License Plate Recognition</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Deep Learning</span> / <span class="w-date">12 Oct. 2023</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://rocket-76.github.io/Portfolio//portfolio-details"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="./Parthiv Konwer -Portfolio_files/IOT.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                <center>
-                  <img src="./Parthiv Konwer -Portfolio_files/IOT.png" alt="" class="img-fluid">
-                </center>
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Enhanced IOT Analytics</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Machine Learning</span> / <span class="w-date">20 Sep. 2023</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://rocket-76.github.io/Portfolio//portfolio-details3"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="./Parthiv Konwer -Portfolio_files/Tata Power.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                <center>
-                  <img src="./Parthiv Konwer -Portfolio_files/Tata Power.jpeg" alt="" class="img-fluid">
-                </center>
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Tata Power Stock Forecasting</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Data Analytics</span> / <span class="w-date">12 Jul. 2023</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://rocket-76.github.io/Portfolio//portfolio-details4"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="./Parthiv Konwer -Portfolio_files/AB Testing.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                <center>
-                  <img src="./Parthiv Konwer -Portfolio_files/AB Testing.png" alt="" class="img-fluid">
-                </center>
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">A/B Testing using Python</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Data Visualization</span> / <span class="w-date">23 Nov. 2022</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://rocket-76.github.io/Portfolio//portfolio-details5"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="./Parthiv Konwer -Portfolio_files/Bibliotheca.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                <center>
-                  <img src="./Parthiv Konwer -Portfolio_files/Bibliotheca.jpeg" alt="" class="img-fluid">
-                </center>
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Bibliotheca</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Java GUI</span> / <span class="w-date">22 Apr. 2022</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="https://rocket-76.github.io/Portfolio//portfolio-details6"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-
-            <div class="testimonials-slider swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper" id="swiper-wrapper-104d558c5a772b71c" aria-live="off" style="transform: translate3d(-3888px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="1 / 2">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="./Parthiv Konwer -Portfolio_files/AC.jpeg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Abhishek Chand- CEO at Sigma Sustainability</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        "Dayesh's zeal to achieve the best in his work makes him stand apart. Working under me, 
-                        he demonstrated great programming and project development skills and showcased promptness to learning new things"
-                      </p>
-                    </div>
-                  </div>
-                </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" role="group" aria-label="2 / 2">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="./Parthiv Konwer -Portfolio_files/DC.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">David Cieslak- Chief Data Scientist at Aunalytics</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        "In my capacity as his immediate supervisor, 
-                        Dayesh exhibited unwavering commitment to learning, analytical skills, and collaborative learning working style in professional settings"
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="0" role="group" aria-label="1 / 2">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="./Parthiv Konwer -Portfolio_files/AC.jpeg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Abhishek Chand- CEO at Sigma Sustainability</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        "Dayesh's zeal to achieve the best in his work makes him stand apart. Working under me, 
-                        he demonstrated great programming and project development skills and showcased promptness to learning new things"
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" role="group" aria-label="2 / 2">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="./Parthiv Konwer -Portfolio_files/DC.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">David Cieslak- Chief Data Scientist at Aunalytics</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        "In my capacity as his immediate supervisor, 
-                        Dayesh exhibited unwavering commitment to learning, analytical skills, and collaborative learning working style in professional settings"
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-              <div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="1 / 2">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="./Parthiv Konwer -Portfolio_files/AC.jpeg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Abhishek Chand- CEO at Sigma Sustainability</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        "Dayesh's zeal to achieve the best in his work makes him stand apart. Working under me, 
-                        he demonstrated great programming and project development skills and showcased promptness to learning new things"
-                      </p>
-                    </div>
-                  </div>
-                </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" role="group" aria-label="2 / 2">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="./Parthiv Konwer -Portfolio_files/DC.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">David Cieslak- Chief Data Scientist at Aunalytics</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        "In my capacity as his immediate supervisor, 
-                        Dayesh exhibited unwavering commitment to learning, analytical skills, and collaborative learning working style in professional settings"
-                      </p>
-                    </div>
-                  </div>
-                </div></div>
-              <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2" aria-current="true"></span></div>
-            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-
-            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-          
-        </div> -->
-          </div>
-        </div>
-      </div>
-    </div><!-- End Testimonials Section -->
-
-    <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Internships 
-              </h3>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <center>
-                <a href="https://rocket-76.github.io/Portfolio//blog-single"><img src="./Parthiv Konwer -Portfolio_files/sigma_sustainability_institute_pte_ltd__logo.jpeg" alt="" class="img-fluid"></a>
-                </center>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Sigma Sustainability Limited</h6>
-                  </div>
-                </div>
-                <p class="card-description">
-                  SSI provides consulting, project implementation, program management and training &amp; education services across key sectors such as 
-                  real-estate, smart cities, infrastructure and facility management, manufacturing, healthcare etc.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="https://rocket-76.github.io/Portfolio//#">
-                    <img src="./Parthiv Konwer -Portfolio_files/DP.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Parthiv Konwer</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="https://rocket-76.github.io/Portfolio//blog-second"><img src="./Parthiv Konwer -Portfolio_files/aunalytics.png" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Aunalytics</h6>
-                  </div>
-                </div>
-                <p class="card-description">
-                  A data platform company that delivers managed IT and analytics services, 
-                  providing the experts and technologies needed for you to get answers and achieve business outcomes.
-                  It also provides an end-to-end solution and access to technical experts 
-                  so that you can concentrate on achieving business outcomes.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="https://rocket-76.github.io/Portfolio//#">
-                    <img src="./Parthiv Konwer -Portfolio_files/DP.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Parthiv Konwer</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="https://rocket-76.github.io/Portfolio//blog-third"><img src="./Parthiv Konwer -Portfolio_files/KORE_Wireless_company_logo.svg.png" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Kore Wireless</h6>
-                  </div>
-                </div>
-                <p class="card-description">
-                  KORE Wireless Group specializes in Internet of Things systems. 
-                  It is headquartered in Atlanta, Georgia. 
-                  In March 2021, KORE and Cerberus Telecom Acquisition Corp. announced a definitive merger agreement.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="https://rocket-76.github.io/Portfolio//#">
-                    <img src="./Parthiv Konwer -Portfolio_files/DP.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Parthiv Konwer</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Blog Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Send Message 
-                      </h5>
-                    </div>
-                    <div>
-                      <form action="https://rocket-76.github.io/Portfolio//forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
-                    </div>
-                    <div class="more-info">
-                      <p class="lead">
-                        For any data science discussions and project development, feel free to contact through mail
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span>&nbsp;Kharghar, Navi Mumbai, Maharashtra, 410210</li>
-                        <li><span class="bi bi-envelope"></span>parthiv.konwer2020@vitbhopal.ac.in</li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li><a href="https://white-ardra-36.tiiny.site/"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                        <li><a href="https://www.instagram.com/dayesh_raval/"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                        <li><a href="https://www.linkedin.com/in/dayesh-raval-123340283/"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">© Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-            <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-            -->
-              Designed by <a href="https://bootstrapmade.com/">Parthiv Konwer</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
-
-  
-  <a href="https://rocket-76.github.io/Portfolio//#" class="back-to-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="./Parthiv Konwer -Portfolio_files/purecounter_vanilla.js.download"></script>
-  <script src="./Parthiv Konwer -Portfolio_files/bootstrap.bundle.min.js.download"></script>
-  <script src="./Parthiv Konwer -Portfolio_files/glightbox.min.js.download"></script>
-  <script src="./Parthiv Konwer -Portfolio_files/swiper-bundle.min.js.download"></script>
-  <script src="./Parthiv Konwer -Portfolio_files/typed.umd.js.download"></script>
-  <script src="./Parthiv Konwer -Portfolio_files/validate.js.download"></script>
-
-  <!-- Template Main JS File -->
-  <script src="./Parthiv Konwer -Portfolio_files/main.js.download"></script><style data-typed-js-cursor-css="true">
-        .typed-cursor{
-          opacity: 1;
-        }
-        .typed-cursor.typed-cursor--blink{
-          animation: typedjsBlink 0.7s infinite;
-          -webkit-animation: typedjsBlink 0.7s infinite;
-                  animation: typedjsBlink 0.7s infinite;
-        }
-        @keyframes typedjsBlink{
-          50% { opacity: 0.0; }
-        }
-        @-webkit-keyframes typedjsBlink{
-          0% { opacity: 1; }
-          50% { opacity: 0.0; }
-          100% { opacity: 1; }
-        }
-      </style>
-
-
-
+    
 </body></html>
